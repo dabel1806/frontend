@@ -2,12 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Breakpoint Naming Convention</title>
   </head>
-  
+  <style type="text/css">
+    .figure figcaption {
+      
+			
+			color:white;
+    
+}
+    </style>
   <body>
     <div class="container">
       <!-- First Row -->
@@ -28,12 +36,44 @@
       <!-- Second Row -->
       <div class="row">
         <div class="col-sm-3">
-          <h3>3 columns wide:</h3>
-          <p>On small sized screens and bigger!</p>
+          <figure class="figure">
+            <img src="./Bajo_mesada.jpg" class="figure-img img-fluid rounded" alt="Bajo Mesada">
+            <figcaption  class="figure-caption">Bajo mesada en blanco</figcaption>
+          </figure>
+          
         </div>
-        <div class="col-sm-3">
-          <h3>3 columns wide:</h3>
-          <p>On small sized screens and bigger!</p>
+        <div class="col-sm-9">
+          <form>
+
+            <div class="mb-3">
+        
+              <label for="idE" class="form-label">Correo</label>
+        
+              <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
+        
+              <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+        
+            </div>
+        
+            <div class="mb-3">
+        
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+        
+              <input type="password" class="form-control" id="exampleInputPassword1">
+        
+            </div>
+        
+            <div class="mb-3 form-check">
+        
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        
+              <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+        
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        
+        </form>
         </div>
       </div>
     </div>
